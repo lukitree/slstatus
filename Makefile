@@ -45,6 +45,7 @@ slstatus: slstatus.o $(COM:=.o) $(REQ:=.o)
 
 clean:
 	rm -f slstatus slstatus.o $(COM:=.o) $(REQ:=.o)
+	rm -f config.h
 
 dist:
 	rm -rf "slstatus-$(VERSION)"
